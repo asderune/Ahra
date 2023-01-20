@@ -1,0 +1,56 @@
+:root {
+    --primary-color: blueviolet;
+    --secondary-color: rgb(242, 30, 80);
+    --transparant-color: rgb(73, 72, 72);
+    --ff-primary: 'Playfair Display', serif;
+    --ff-secondary: 'Inter', sans-serif;
+    --fs-secondary: .87rem;
+    --fs-primary: 3.5rem;
+    --fs-regular: 1rem;
+}
+
+.color-blueviolet {
+    color: blueviolet;
+}
+
+.letter-spacing {
+    letter-spacing: .8px;
+}
+
+.font-sans {
+    font-family: var(--ff-secondary);
+}
+
+.font-serif {
+    font-family: var(--ff-primary);
+}
+
+.font-little {
+    font-size: var(--fs-secondary);
+}
+
+.font-regular {
+    font-size: var(--fs-regular);
+}
+
+.change-bg-nav {
+    background-color: rgb(255, 255, 255, .5) !important;
+    backdrop-filter: blur(3px)
+}
+
+::selection {
+    background: pink;
+    color: rgb(49, 46, 46);
+}
+
+.bxs-heart::before {
+    color: var(--secondary-color);
+}
+
+.text-transparant {
+    color: var(--transparant-color)
+}
+
+.button-custome {
+    padding: 7px 1.5rem;
+}
